@@ -29,17 +29,20 @@ function()
             if(numberOfItems==0)
               {
                 $scope.message="Please enter data first";
-                $scope.lunchStyle={"color":"red","boder-color":"red","border-style": "solid"};
+                $scope.lunchStyle={"color":"red"};
+                $scope.InputStyle={"boder-color":"red","border-style": "solid"};
               }
             else if(numberOfItems>0 && numberOfItems<4)
               {
                 $scope.message="Enjoy!";
-                $scope.lunchStyle={"color":"green","boder-color":"green","border-style": "solid"};
+                $scope.lunchStyle={"color":"green"};
+                $scope.InputStyle={"boder-color":"green","border-style": "solid"};
               }
             else
               {
                 $scope.message="Too much!";
-              $scope.lunchStyle={"color":"green","boder-color":"green","border-style": "solid"};
+                $scope.lunchStyle={"color":"green"};
+                $scope.InputStyle={"boder-color":"green","border-style": "solid"};
               }
         }
     }
