@@ -33,13 +33,13 @@ function()
             else if(numberOfItems>0 && numberOfItems<4)
               {
                 $scope.message="Enjoy!";
-                $scope.lunchStyle={"color":"red"};
+                $scope.lunchStyle={"color":"green"};
                 $scope.InputStyle={"border" :"1px solid green"};
               }
             else
               {
                 $scope.message="Too much!";
-              $scope.lunchStyle={"color":"red"};
+              $scope.lunchStyle={"color":"green"};
               $scope.InputStyle={"border" :"1px solid green"};
               }
         }
